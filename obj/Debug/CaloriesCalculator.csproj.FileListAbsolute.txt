@@ -1,0 +1,13 @@
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\bin\Debug\CaloriesCalculator.exe.config
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\bin\Debug\CaloriesCalculator.exe
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\bin\Debug\CaloriesCalculator.pdb
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.csprojAssemblyReference.cache
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.Properties.Resources.resources
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.csproj.GenerateResource.cache
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.csproj.CoreCompileInputs.cache
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.exe
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.pdb
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.Elementary.resources
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.Form1.resources
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\bin\Debug\КалорийностьПродуктов.mdb
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.ResultsForm.resources
