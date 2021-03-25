@@ -53,26 +53,29 @@ namespace CaloriesCalculator
             // MoreWeight
             // 
             this.MoreWeight.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.MoreWeight.Location = new System.Drawing.Point(570, 155);
+            this.MoreWeight.Location = new System.Drawing.Point(832, 189);
+            this.MoreWeight.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.MoreWeight.Name = "MoreWeight";
-            this.MoreWeight.Size = new System.Drawing.Size(100, 23);
+            this.MoreWeight.Size = new System.Drawing.Size(167, 37);
             this.MoreWeight.TabIndex = 119;
             // 
             // MusclesText
             // 
             this.MusclesText.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.MusclesText.Location = new System.Drawing.Point(221, 247);
+            this.MusclesText.Location = new System.Drawing.Point(250, 338);
+            this.MusclesText.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.MusclesText.Name = "MusclesText";
-            this.MusclesText.Size = new System.Drawing.Size(156, 23);
+            this.MusclesText.Size = new System.Drawing.Size(260, 37);
             this.MusclesText.TabIndex = 118;
             this.MusclesText.Text = "Наращивание мышц";
             // 
             // NotDecreasingWeight
             // 
             this.NotDecreasingWeight.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.NotDecreasingWeight.Location = new System.Drawing.Point(172, 155);
+            this.NotDecreasingWeight.Location = new System.Drawing.Point(168, 189);
+            this.NotDecreasingWeight.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.NotDecreasingWeight.Name = "NotDecreasingWeight";
-            this.NotDecreasingWeight.Size = new System.Drawing.Size(100, 23);
+            this.NotDecreasingWeight.Size = new System.Drawing.Size(167, 37);
             this.NotDecreasingWeight.TabIndex = 107;
             // 
             // IndicatorValues
@@ -80,87 +83,97 @@ namespace CaloriesCalculator
             this.IndicatorValues.Controls.Add(this.label17);
             this.IndicatorValues.Controls.Add(this.label16);
             this.IndicatorValues.Controls.Add(this.label15);
-            this.IndicatorValues.Location = new System.Drawing.Point(221, 275);
+            this.IndicatorValues.Location = new System.Drawing.Point(250, 383);
+            this.IndicatorValues.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.IndicatorValues.Name = "IndicatorValues";
-            this.IndicatorValues.Size = new System.Drawing.Size(373, 92);
+            this.IndicatorValues.Size = new System.Drawing.Size(622, 149);
             this.IndicatorValues.TabIndex = 117;
             // 
             // label17
             // 
             this.label17.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label17.Location = new System.Drawing.Point(74, 61);
+            this.label17.Location = new System.Drawing.Point(123, 99);
+            this.label17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(100, 23);
+            this.label17.Size = new System.Drawing.Size(167, 37);
             this.label17.TabIndex = 108;
             this.label17.Text = "гр.";
             // 
             // label16
             // 
             this.label16.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label16.Location = new System.Drawing.Point(74, 29);
+            this.label16.Location = new System.Drawing.Point(123, 47);
+            this.label16.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(100, 23);
+            this.label16.Size = new System.Drawing.Size(167, 37);
             this.label16.TabIndex = 107;
             this.label16.Text = "гр.";
             // 
             // label15
             // 
             this.label15.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label15.Location = new System.Drawing.Point(74, 0);
+            this.label15.Location = new System.Drawing.Point(123, 0);
+            this.label15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(100, 23);
+            this.label15.Size = new System.Drawing.Size(167, 37);
             this.label15.TabIndex = 106;
             this.label15.Text = "гр.";
             // 
             // DecreasingWeight
             // 
             this.DecreasingWeight.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.DecreasingWeight.Location = new System.Drawing.Point(307, 155);
+            this.DecreasingWeight.Location = new System.Drawing.Point(393, 189);
+            this.DecreasingWeight.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.DecreasingWeight.Name = "DecreasingWeight";
-            this.DecreasingWeight.Size = new System.Drawing.Size(100, 23);
+            this.DecreasingWeight.Size = new System.Drawing.Size(167, 37);
             this.DecreasingWeight.TabIndex = 108;
             // 
             // FastDecreasingWeight
             // 
             this.FastDecreasingWeight.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.FastDecreasingWeight.Location = new System.Drawing.Point(439, 155);
+            this.FastDecreasingWeight.Location = new System.Drawing.Point(613, 189);
+            this.FastDecreasingWeight.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.FastDecreasingWeight.Name = "FastDecreasingWeight";
-            this.FastDecreasingWeight.Size = new System.Drawing.Size(100, 23);
+            this.FastDecreasingWeight.Size = new System.Drawing.Size(167, 37);
             this.FastDecreasingWeight.TabIndex = 109;
             // 
             // CarbonText
             // 
             this.CarbonText.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.CarbonText.Location = new System.Drawing.Point(130, 336);
+            this.CarbonText.Location = new System.Drawing.Point(98, 481);
+            this.CarbonText.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.CarbonText.Name = "CarbonText";
-            this.CarbonText.Size = new System.Drawing.Size(100, 31);
+            this.CarbonText.Size = new System.Drawing.Size(167, 50);
             this.CarbonText.TabIndex = 116;
             this.CarbonText.Text = "Углеводы";
             // 
             // FatsText
             // 
             this.FatsText.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.FatsText.Location = new System.Drawing.Point(130, 304);
+            this.FatsText.Location = new System.Drawing.Point(98, 430);
+            this.FatsText.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.FatsText.Name = "FatsText";
-            this.FatsText.Size = new System.Drawing.Size(56, 23);
+            this.FatsText.Size = new System.Drawing.Size(93, 37);
             this.FatsText.TabIndex = 115;
             this.FatsText.Text = "Жиры";
             // 
             // ProteinText
             // 
             this.ProteinText.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.ProteinText.Location = new System.Drawing.Point(130, 275);
+            this.ProteinText.Location = new System.Drawing.Point(98, 383);
+            this.ProteinText.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.ProteinText.Name = "ProteinText";
-            this.ProteinText.Size = new System.Drawing.Size(100, 23);
+            this.ProteinText.Size = new System.Drawing.Size(167, 37);
             this.ProteinText.TabIndex = 114;
             this.ProteinText.Text = "Белки";
             // 
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label14.Location = new System.Drawing.Point(550, 84);
+            this.label14.Location = new System.Drawing.Point(798, 74);
+            this.label14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(120, 53);
+            this.label14.Size = new System.Drawing.Size(200, 86);
             this.label14.TabIndex = 113;
             this.label14.Text = "Набор веса";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -168,9 +181,10 @@ namespace CaloriesCalculator
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label9.Location = new System.Drawing.Point(401, 84);
+            this.label9.Location = new System.Drawing.Point(550, 74);
+            this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 53);
+            this.label9.Size = new System.Drawing.Size(200, 86);
             this.label9.TabIndex = 112;
             this.label9.Text = "С быстрой потерей веса";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -178,9 +192,10 @@ namespace CaloriesCalculator
             // WeightDecreaseText
             // 
             this.WeightDecreaseText.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.WeightDecreaseText.Location = new System.Drawing.Point(280, 84);
+            this.WeightDecreaseText.Location = new System.Drawing.Point(348, 74);
+            this.WeightDecreaseText.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.WeightDecreaseText.Name = "WeightDecreaseText";
-            this.WeightDecreaseText.Size = new System.Drawing.Size(86, 53);
+            this.WeightDecreaseText.Size = new System.Drawing.Size(143, 86);
             this.WeightDecreaseText.TabIndex = 111;
             this.WeightDecreaseText.Text = "С потерей веса";
             this.WeightDecreaseText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -188,18 +203,19 @@ namespace CaloriesCalculator
             // WithoutWeightChangeText
             // 
             this.WithoutWeightChangeText.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.WithoutWeightChangeText.Location = new System.Drawing.Point(148, 84);
+            this.WithoutWeightChangeText.Location = new System.Drawing.Point(128, 74);
+            this.WithoutWeightChangeText.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.WithoutWeightChangeText.Name = "WithoutWeightChangeText";
-            this.WithoutWeightChangeText.Size = new System.Drawing.Size(100, 53);
+            this.WithoutWeightChangeText.Size = new System.Drawing.Size(167, 86);
             this.WithoutWeightChangeText.TabIndex = 110;
             this.WithoutWeightChangeText.Text = "Без потери веса";
             this.WithoutWeightChangeText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ResultsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1062, 614);
             this.Controls.Add(this.MoreWeight);
             this.Controls.Add(this.MusclesText);
             this.Controls.Add(this.NotDecreasingWeight);
@@ -213,6 +229,8 @@ namespace CaloriesCalculator
             this.Controls.Add(this.label9);
             this.Controls.Add(this.WeightDecreaseText);
             this.Controls.Add(this.WithoutWeightChangeText);
+            this.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "ResultsForm";
             this.Text = "Результаты";
             this.IndicatorValues.ResumeLayout(false);

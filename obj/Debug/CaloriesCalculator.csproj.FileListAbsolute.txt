@@ -11,3 +11,4 @@ D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\
 D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.Form1.resources
 D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\bin\Debug\КалорийностьПродуктов.mdb
 D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.ResultsForm.resources
+D:\for learning\КП КПиЯП\УрецкийNewProject\CaloriesCalculator\obj\Debug\CaloriesCalculator.ResultsIngridients.resources

@@ -39,9 +39,10 @@ namespace CaloriesCalculator
             // 
             // GoingMainForm
             // 
-            this.GoingMainForm.Location = new System.Drawing.Point(32, 122);
+            this.GoingMainForm.Location = new System.Drawing.Point(53, 197);
+            this.GoingMainForm.Margin = new System.Windows.Forms.Padding(5);
             this.GoingMainForm.Name = "GoingMainForm";
-            this.GoingMainForm.Size = new System.Drawing.Size(116, 36);
+            this.GoingMainForm.Size = new System.Drawing.Size(193, 58);
             this.GoingMainForm.TabIndex = 0;
             this.GoingMainForm.Text = "Перейти на главную форму";
             this.GoingMainForm.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@ namespace CaloriesCalculator
             // 
             // Manual
             // 
-            this.Manual.Location = new System.Drawing.Point(194, 122);
+            this.Manual.Location = new System.Drawing.Point(323, 197);
+            this.Manual.Margin = new System.Windows.Forms.Padding(5);
             this.Manual.Name = "Manual";
-            this.Manual.Size = new System.Drawing.Size(116, 36);
+            this.Manual.Size = new System.Drawing.Size(193, 58);
             this.Manual.TabIndex = 1;
             this.Manual.Text = "Справка";
             this.Manual.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@ namespace CaloriesCalculator
             // 
             // ExitApplication
             // 
-            this.ExitApplication.Location = new System.Drawing.Point(356, 122);
+            this.ExitApplication.Location = new System.Drawing.Point(593, 197);
+            this.ExitApplication.Margin = new System.Windows.Forms.Padding(5);
             this.ExitApplication.Name = "ExitApplication";
-            this.ExitApplication.Size = new System.Drawing.Size(116, 36);
+            this.ExitApplication.Size = new System.Drawing.Size(193, 58);
             this.ExitApplication.TabIndex = 2;
             this.ExitApplication.Text = "Выход";
             this.ExitApplication.UseVisualStyleBackColor = true;
@@ -69,9 +72,10 @@ namespace CaloriesCalculator
             // 
             // AboutAuthor
             // 
-            this.AboutAuthor.Location = new System.Drawing.Point(194, 205);
+            this.AboutAuthor.Location = new System.Drawing.Point(323, 331);
+            this.AboutAuthor.Margin = new System.Windows.Forms.Padding(5);
             this.AboutAuthor.Name = "AboutAuthor";
-            this.AboutAuthor.Size = new System.Drawing.Size(116, 36);
+            this.AboutAuthor.Size = new System.Drawing.Size(193, 58);
             this.AboutAuthor.TabIndex = 3;
             this.AboutAuthor.Text = "Об авторе";
             this.AboutAuthor.UseVisualStyleBackColor = true;
@@ -79,13 +83,15 @@ namespace CaloriesCalculator
             // 
             // Elementary
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 296);
+            this.ClientSize = new System.Drawing.Size(832, 478);
             this.Controls.Add(this.AboutAuthor);
             this.Controls.Add(this.ExitApplication);
             this.Controls.Add(this.Manual);
             this.Controls.Add(this.GoingMainForm);
+            this.Font = new System.Drawing.Font("Berlin Sans FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Elementary";
             this.Text = "Elementary";
             this.ResumeLayout(false);

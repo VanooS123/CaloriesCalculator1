@@ -66,6 +66,12 @@
     <Compile Include="ResultsForm.Designer.cs">
       <DependentUpon>ResultsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultsIngridients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultsIngridients.Designer.cs">
+      <DependentUpon>ResultsIngridients.cs</DependentUpon>
+    </Compile>
     <Compile Include="КалорийностьПродуктовDataSet.cs">
       <DependentUpon>КалорийностьПродуктовDataSet.xsd</DependentUpon>
     </Compile>
@@ -101,6 +107,9 @@
     </Compile>
     <EmbeddedResource Include="ResultsForm.resx">
       <DependentUpon>ResultsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultsIngridients.resx">
+      <DependentUpon>ResultsIngridients.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
