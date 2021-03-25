@@ -60,6 +60,10 @@
             this.Weight = new System.Windows.Forms.TextBox();
             this.DishesControl = new System.Windows.Forms.TabPage();
             this.label9 = new System.Windows.Forms.Label();
+            this.DishStructure = new System.Windows.Forms.DataGridView();
+            this.IngridientName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CaloricityDish = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Portion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.блюдаDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -74,6 +78,7 @@
             this.DishGramms = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DishIngridients = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IngridientsControl = new System.Windows.Forms.TabPage();
+            this.label14 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.NewDishName = new System.Windows.Forms.TextBox();
             this.IngridientsDataGridView = new System.Windows.Forms.DataGridView();
@@ -101,12 +106,12 @@
             this.tableAdapterManager1 = new CaloriesCalculator.КалорийностьПродуктовDataSet1TableAdapters.TableAdapterManager();
             this.блюдаTableAdapter = new CaloriesCalculator.КалорийностьПродуктовDataSet2TableAdapters.БлюдаTableAdapter();
             this.tableAdapterManager2 = new CaloriesCalculator.КалорийностьПродуктовDataSet2TableAdapters.TableAdapterManager();
-            this.label14 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.CaloriesNormalControl.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.DishesControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.DishStructure)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.блюдаDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.блюдаBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.калорийностьПродуктовDataSet2)).BeginInit();
@@ -393,6 +398,7 @@
             // 
             this.DishesControl.AutoScroll = true;
             this.DishesControl.Controls.Add(this.label9);
+            this.DishesControl.Controls.Add(this.DishStructure);
             this.DishesControl.Controls.Add(this.блюдаDataGridView);
             this.DishesControl.Controls.Add(this.DishesTable);
             this.DishesControl.Location = new System.Drawing.Point(4, 4);
@@ -405,11 +411,37 @@
             // 
             // label9
             // 
-            this.label9.Location = new System.Drawing.Point(594, 179);
+            this.label9.Location = new System.Drawing.Point(232, 238);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(100, 23);
-            this.label9.TabIndex = 13;
+            this.label9.TabIndex = 14;
             this.label9.Text = "label9";
+            // 
+            // DishStructure
+            // 
+            this.DishStructure.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DishStructure.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.IngridientName, this.CaloricityDish, this.Portion});
+            this.DishStructure.Location = new System.Drawing.Point(649, 254);
+            this.DishStructure.Name = "DishStructure";
+            this.DishStructure.Size = new System.Drawing.Size(512, 150);
+            this.DishStructure.TabIndex = 13;
+            // 
+            // IngridientName
+            // 
+            this.IngridientName.HeaderText = "Название ингридиента";
+            this.IngridientName.Name = "IngridientName";
+            this.IngridientName.Width = 175;
+            // 
+            // CaloricityDish
+            // 
+            this.CaloricityDish.HeaderText = "Калорийность блюда";
+            this.CaloricityDish.Name = "CaloricityDish";
+            this.CaloricityDish.Width = 175;
+            // 
+            // Portion
+            // 
+            this.Portion.HeaderText = "Порция";
+            this.Portion.Name = "Portion";
             // 
             // блюдаDataGridView
             // 
@@ -417,7 +449,7 @@
             this.блюдаDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.блюдаDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dataGridViewTextBoxColumn11, this.dataGridViewTextBoxColumn12, this.dataGridViewTextBoxColumn13, this.dataGridViewTextBoxColumn14, this.dataGridViewTextBoxColumn15});
             this.блюдаDataGridView.DataSource = this.блюдаBindingSource;
-            this.блюдаDataGridView.Location = new System.Drawing.Point(8, 65);
+            this.блюдаDataGridView.Location = new System.Drawing.Point(31, 65);
             this.блюдаDataGridView.Name = "блюдаDataGridView";
             this.блюдаDataGridView.Size = new System.Drawing.Size(564, 68);
             this.блюдаDataGridView.TabIndex = 12;
@@ -511,9 +543,18 @@
             this.IngridientsControl.Text = "Ингридиенты";
             this.IngridientsControl.UseVisualStyleBackColor = true;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(8, 38);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(130, 21);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "Все ингридиенты";
+            // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(672, 283);
+            this.label8.Location = new System.Drawing.Point(672, 354);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(161, 23);
             this.label8.TabIndex = 10;
@@ -521,7 +562,7 @@
             // 
             // NewDishName
             // 
-            this.NewDishName.Location = new System.Drawing.Point(839, 283);
+            this.NewDishName.Location = new System.Drawing.Point(839, 354);
             this.NewDishName.Name = "NewDishName";
             this.NewDishName.Size = new System.Drawing.Size(139, 28);
             this.NewDishName.TabIndex = 9;
@@ -534,7 +575,8 @@
             this.IngridientsDataGridView.DataSource = this.ингридиентыBindingSource;
             this.IngridientsDataGridView.Location = new System.Drawing.Point(8, 93);
             this.IngridientsDataGridView.Name = "IngridientsDataGridView";
-            this.IngridientsDataGridView.Size = new System.Drawing.Size(623, 116);
+            this.IngridientsDataGridView.ReadOnly = true;
+            this.IngridientsDataGridView.Size = new System.Drawing.Size(623, 345);
             this.IngridientsDataGridView.TabIndex = 8;
             this.IngridientsDataGridView.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.IngridientsDataGridView_DataError);
             this.IngridientsDataGridView.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.IngridientsDataGridView_RowHeaderMouseDoubleClick);
@@ -548,6 +590,7 @@
             this.dataGridViewTextBoxColumn1.DataPropertyName = "Код ингридиента";
             this.dataGridViewTextBoxColumn1.HeaderText = "Код ингридиента";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             this.dataGridViewTextBoxColumn1.Width = 175;
             // 
             // dataGridViewTextBoxColumn2
@@ -555,6 +598,7 @@
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Названия ингридиентов";
             this.dataGridViewTextBoxColumn2.HeaderText = "Названия ингридиентов";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
             this.dataGridViewTextBoxColumn2.Width = 200;
             // 
             // dataGridViewTextBoxColumn3
@@ -562,12 +606,14 @@
             this.dataGridViewTextBoxColumn3.DataPropertyName = "Калорийность";
             this.dataGridViewTextBoxColumn3.HeaderText = "Калорийность";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn9
             // 
             this.dataGridViewTextBoxColumn9.DataPropertyName = "Граммаж";
             this.dataGridViewTextBoxColumn9.HeaderText = "Граммаж";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
             // 
             // ингридиентыBindingSource
             // 
@@ -582,14 +628,14 @@
             // 
             // CommonColoricity
             // 
-            this.CommonColoricity.Location = new System.Drawing.Point(839, 234);
+            this.CommonColoricity.Location = new System.Drawing.Point(839, 309);
             this.CommonColoricity.Name = "CommonColoricity";
             this.CommonColoricity.Size = new System.Drawing.Size(69, 27);
             this.CommonColoricity.TabIndex = 8;
             // 
             // label111
             // 
-            this.label111.Location = new System.Drawing.Point(672, 238);
+            this.label111.Location = new System.Drawing.Point(672, 309);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(161, 23);
             this.label111.TabIndex = 7;
@@ -597,7 +643,7 @@
             // 
             // AddingNewDish
             // 
-            this.AddingNewDish.Location = new System.Drawing.Point(672, 332);
+            this.AddingNewDish.Location = new System.Drawing.Point(672, 403);
             this.AddingNewDish.Name = "AddingNewDish";
             this.AddingNewDish.Size = new System.Drawing.Size(112, 35);
             this.AddingNewDish.TabIndex = 6;
@@ -611,28 +657,25 @@
             this.NewDishesGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.IngridientNewDish, this.Caloricity, this.Grams});
             this.NewDishesGrid.Location = new System.Drawing.Point(672, 93);
             this.NewDishesGrid.Name = "NewDishesGrid";
-            this.NewDishesGrid.ReadOnly = true;
-            this.NewDishesGrid.Size = new System.Drawing.Size(403, 116);
+            this.NewDishesGrid.Size = new System.Drawing.Size(403, 209);
             this.NewDishesGrid.TabIndex = 4;
+            this.NewDishesGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.NewDishesGrid_CellValueChanged);
             // 
             // IngridientNewDish
             // 
             this.IngridientNewDish.HeaderText = "Ингридиент";
             this.IngridientNewDish.Name = "IngridientNewDish";
-            this.IngridientNewDish.ReadOnly = true;
             // 
             // Caloricity
             // 
             this.Caloricity.HeaderText = "Калорийность на 100 гр";
             this.Caloricity.Name = "Caloricity";
-            this.Caloricity.ReadOnly = true;
             this.Caloricity.Width = 150;
             // 
             // Grams
             // 
             this.Grams.HeaderText = "Граммаж";
             this.Grams.Name = "Grams";
-            this.Grams.ReadOnly = true;
             // 
             // label7
             // 
@@ -694,15 +737,6 @@
             this.tableAdapterManager2.UpdateOrder = CaloriesCalculator.КалорийностьПродуктовDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager2.БлюдаTableAdapter = this.блюдаTableAdapter;
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(8, 38);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(130, 21);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "Все ингридиенты";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -721,6 +755,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.DishesControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.DishStructure)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.блюдаDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.блюдаBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.калорийностьПродуктовDataSet2)).EndInit();
@@ -737,9 +772,15 @@
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Label label14;
-
         private System.Windows.Forms.Label label9;
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn CaloricityDish;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IngridientName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Portion;
+
+        private System.Windows.Forms.DataGridView DishStructure;
+
+        private System.Windows.Forms.Label label14;
 
         private System.Windows.Forms.Button CountIdealWeight;
         public System.Windows.Forms.TextBox IdealHeight;
@@ -755,8 +796,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
 
         public System.Windows.Forms.Button CountCaloriesAccordingParameters;
 
