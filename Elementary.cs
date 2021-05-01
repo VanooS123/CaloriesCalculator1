@@ -31,7 +31,7 @@ namespace CaloriesCalculator
 
         private void AboutAuthor_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(@"Программу сделал учащийся 21-п группы Урецкий Даниэль");
+            MessageBox.Show(@"Программу сделал учащийся 21-п группы Стульский Иван");
         }
     }
 }
