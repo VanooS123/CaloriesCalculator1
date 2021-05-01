@@ -63,8 +63,8 @@
             this.label123 = new System.Windows.Forms.Label();
             this.блюдаDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.блюдаBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -133,7 +133,7 @@
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1177, 496);
+            this.tabControl1.Size = new System.Drawing.Size(1177, 485);
             this.tabControl1.TabIndex = 0;
             // 
             // CaloriesNormalControl
@@ -163,7 +163,7 @@
             this.CaloriesNormalControl.Location = new System.Drawing.Point(4, 4);
             this.CaloriesNormalControl.Name = "CaloriesNormalControl";
             this.CaloriesNormalControl.Padding = new System.Windows.Forms.Padding(3);
-            this.CaloriesNormalControl.Size = new System.Drawing.Size(1169, 462);
+            this.CaloriesNormalControl.Size = new System.Drawing.Size(1169, 451);
             this.CaloriesNormalControl.TabIndex = 0;
             this.CaloriesNormalControl.Text = "Норма калорий";
             this.CaloriesNormalControl.UseVisualStyleBackColor = true;
@@ -399,7 +399,7 @@
             this.DishesControl.Controls.Add(this.DishesTable);
             this.DishesControl.Location = new System.Drawing.Point(4, 4);
             this.DishesControl.Name = "DishesControl";
-            this.DishesControl.Size = new System.Drawing.Size(1169, 462);
+            this.DishesControl.Size = new System.Drawing.Size(1169, 451);
             this.DishesControl.TabIndex = 2;
             this.DishesControl.Text = "Список блюд";
             this.DishesControl.UseVisualStyleBackColor = true;
@@ -425,7 +425,7 @@
             // 
             this.блюдаDataGridView.AutoGenerateColumns = false;
             this.блюдаDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.блюдаDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dataGridViewTextBoxColumn11, this.dataGridViewTextBoxColumn12, this.dataGridViewTextBoxColumn13, this.dataGridViewTextBoxColumn14, this.dataGridViewTextBoxColumn15});
+            this.блюдаDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dataGridViewTextBoxColumn11, this.dataGridViewTextBoxColumn13, this.dataGridViewTextBoxColumn12, this.dataGridViewTextBoxColumn14, this.dataGridViewTextBoxColumn15});
             this.блюдаDataGridView.DataSource = this.блюдаBindingSource;
             this.блюдаDataGridView.Location = new System.Drawing.Point(31, 65);
             this.блюдаDataGridView.Name = "блюдаDataGridView";
@@ -439,17 +439,17 @@
             this.dataGridViewTextBoxColumn11.HeaderText = "КодБлюда";
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.DataPropertyName = "НазваниеБлюда";
-            this.dataGridViewTextBoxColumn12.HeaderText = "НазваниеБлюда";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            // 
             // dataGridViewTextBoxColumn13
             // 
             this.dataGridViewTextBoxColumn13.DataPropertyName = "Калорийность";
             this.dataGridViewTextBoxColumn13.HeaderText = "Калорийность";
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.DataPropertyName = "НазваниеБлюда";
+            this.dataGridViewTextBoxColumn12.HeaderText = "НазваниеБлюда";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             // 
             // dataGridViewTextBoxColumn14
             // 
@@ -516,7 +516,7 @@
             this.IngridientsControl.Controls.Add(this.label7);
             this.IngridientsControl.Location = new System.Drawing.Point(4, 4);
             this.IngridientsControl.Name = "IngridientsControl";
-            this.IngridientsControl.Size = new System.Drawing.Size(1169, 462);
+            this.IngridientsControl.Size = new System.Drawing.Size(1169, 451);
             this.IngridientsControl.TabIndex = 3;
             this.IngridientsControl.Text = "Ингридиенты";
             this.IngridientsControl.UseVisualStyleBackColor = true;
@@ -720,7 +720,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1177, 497);
+            this.ClientSize = new System.Drawing.Size(1177, 487);
             this.Controls.Add(this.tabControl1);
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "Form1";
@@ -748,6 +748,12 @@
             ((System.ComponentModel.ISupportInitialize) (this.IngridientsBindingSource)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
 
         private System.Windows.Forms.Label label123;
         private System.Windows.Forms.Label label9;
@@ -839,10 +845,5 @@
         private КалорийностьПродуктовDataSet2TableAdapters.БлюдаTableAdapter блюдаTableAdapter;
         private КалорийностьПродуктовDataSet2TableAdapters.TableAdapterManager tableAdapterManager2;
         private System.Windows.Forms.DataGridView блюдаDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
     }
 }
